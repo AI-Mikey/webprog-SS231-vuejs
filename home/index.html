@@ -3,13 +3,32 @@
 <head>
 <title>My first Vue page</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">
 </head>
 <body>
  
-<h1>Example with JavaScript inside {{ }}</h1>
- 
-<p>The 'message' text from the Vue instance is put together with another text and a JavaScript expression. The JavaScript expression creates a random integer between 1 and 6.</p>
- 
+    <div class="container">
+        <header>
+            <h1>Personal Profile Web Page</h1>
+          </header>
+        <main>
+          <section class="main-content">
+            <div>1 About Me<br>My Name is Michael M. Orenze, <br> I'm 21 Years old.</div>
+            <div>2 Education / Achievements: <br>JHS Grad, SHS Grad</div>
+            <div>3 Course:  <br>BSCS-SS</div>
+            <div>4 IT Experience: <br>Made a search engine that everytime you search on it 50 times it will plant a tree (This is our first project in APC)</div>
+            <div>5 Hobbies & Interests: <br>I love to play games and watch anime. <br>I love to spend time with my Girlfriend, <br> Friends, and Family</div>
+            <div>6 Goal In Life / Dream: <br>My goal in life is to become a successful programmer or game developer <br> and have a wealthy, healthy, happy family in the future with my girlfriend.</div>
+            <div>7</div>
+            </section>
+          <aside class="sidebar"> Sidebar
+            <br>Picture Gallery:
+            </aside>
+        </main>
+        <footer> Asia Pacific College
+          </footer>
+      </div>
+
 <div id="app">
   {{ message }} <br>
   {{'Random number: ' + Math.ceil(Math.random()*6) }}
