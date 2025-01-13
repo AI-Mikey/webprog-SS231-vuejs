@@ -1,4 +1,3 @@
-
 const app3 = Vue.createApp({
     data() {
       return {
@@ -27,4 +26,4 @@ const app3 = Vue.createApp({
       }
     }
   })
- app3.mount('#app3')
+app3.mount('#app3')
