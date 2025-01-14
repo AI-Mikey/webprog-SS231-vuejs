@@ -35,18 +35,18 @@
 <div id="app">
   {{ message }} <br>
   {{'Random number: ' + Math.ceil(Math.random()*6) }}
-  <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
-  </div>
+<div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
 </div>
-
+</div>
+ 
 <div id="app2">
-  <div>
-    <figure v-for="x in manyFoods">
-      <img v-bind:src="x.url">
-      <figcaption>{{ x.name }}</figcaption>
-    </figure>
-  </div>
-
+<div>
+<figure v-for="x in manyFoods">
+<img v-bind:src="x.url">
+<figcaption>{{ x.name }}</figcaption>
+</figure>
+</div>
+</div>
 <div id="app3">
 <form v-on:submit.prevent="addItem">
 <p>
@@ -89,6 +89,7 @@
           {{ item.name }}, {{ item.number}}
 </li>
 </ul>
+</div>
 </div>
  
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
