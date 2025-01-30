@@ -9,19 +9,19 @@
   export default {
     data() {
       return {
-        name: 'Mangoes',
-        message: 'I like Mangoes'
+        name: 'Apples',
+        message: 'I like apples'
       }
     }
   };
-</script>
-
+  </script>
+  
 <style>
-  .mango {
-        border: dashed black 1px;
-        display: inline-block;
-        margin: 10px;
-        padding: 10px;
-        background-color: lightyellow;
+    .mango {
+    border: dashed black 1px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightyellow;
     }
 </style>
