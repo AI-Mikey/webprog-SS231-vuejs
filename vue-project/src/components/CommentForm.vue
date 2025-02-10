@@ -19,20 +19,6 @@
   </template>
   
   <script setup>
-  import { ref } from 'vue';
-  import { createClient } from '../lib/supabaseClient'
-  
-  const name = ref('');
-  const comment = ref('');
-  const submissionStatus = ref(null);
-  
-  // Your Supabase URL and Key - IMPORTANT!
-  const supabaseUrl = 'YOUR_SUPABASE_URL';
-  const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
-  const tableName = 'comments'; // Name of your Supabase table
-  
-  const supabase = createClient(supabaseUrl, supabaseKey);
-  
   async function submitComment() {
     submissionStatus.value = "Submitting...";
     try {
