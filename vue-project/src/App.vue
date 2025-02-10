@@ -1,6 +1,5 @@
 <template>
-  <h1>Instruments</h1>
-  <h2>Food</h2> 
+  <h1>Food</h1>
   <personal-profile/> <br>
   <food-item/> <br>
   <food-item2/> <br>
