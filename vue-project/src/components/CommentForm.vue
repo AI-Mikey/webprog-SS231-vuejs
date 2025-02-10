@@ -29,8 +29,6 @@ const submissionStatus = ref(null);
 
 const tableName = 'comments'; // Name of your Supabase table
 
-const supabase = createClient(supabaseUrl, supabaseKey);
-
 async function submitComment() {
   submissionStatus.value = "Submitting...";
   try {
