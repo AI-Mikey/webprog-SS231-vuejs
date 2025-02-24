@@ -9,7 +9,7 @@
   <instruments/> <br>
   <comment-form/> <br>
   <comment/> <br>
-
+  <rest-api/>
 
 </template>
 
